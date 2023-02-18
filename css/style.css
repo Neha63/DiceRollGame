@@ -1,0 +1,52 @@
+body{
+    background-color: purple;
+    text-align: center;
+    /* height: 100vh; */
+}
+.dice{
+    display: block;
+}
+.row{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px 0px;
+    /* margin: auto; */
+    padding: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    
+}
+.col-4{
+    width: 100%;
+    border: 2px solid rgb(245, 241, 241);
+    margin: 3px;
+    align-items: center;
+    padding: 3px;
+
+}
+button {
+    margin: 30px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 0;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px rgb(34, 31, 33);
+    color: white;
+    background-color: green;
+
+}
+h2 {
+    margin: 20px;
+    text-shadow: 2px 0 rgb(219, 72, 170);
+    font-size: 3rem;
+    background-color: white;
+    width: 100%;
+}
